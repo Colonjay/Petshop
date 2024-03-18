@@ -1,0 +1,132 @@
+.Cat-Background {
+    background-image: url(cat.jpg);
+    background-color: black;
+    color: white;
+    background-size: cover;
+    height: 900px;
+    padding: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+.Card {
+    display: flex;
+    margin: 40px 40px 40px 40px;
+    color: white;
+    padding: 50px 50px 50px 50px;
+}
+
+.card-1 {
+    background-image: url(dog.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    padding: 100px 50px 100px 50px;
+    margin: 0px 20px 20px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2 {
+    background-image: url(cat.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    padding: 100px 50px 100px 50px;
+    margin: 0px 20px 20px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-3 {
+    background-image: url(horse.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    padding: 100px 50px 100px 50px;
+    margin: 0px 20px 20px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-4 {
+    background-image: url(Bunnies.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    padding: 100px 50px 100px 50px;
+    margin: 0px 20px 20px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.About {
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.Bunnies {
+    background-image: url(Bunnies.jpg);
+    background-size: cover;
+    background-position: contain;
+    height: 800px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+form {
+    color: white;
+
+}
+
+.btn {
+    background-color: goldenrod;
+    color: black;
+    border-radius: 10px;
+}
+
+Button {
+    background-color: goldenrod;
+    color: black;
+    border-radius: 10px;
+
+}
+
+nav a {
+    padding: 800px 100px 800px 100px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.Cat-Background button {
+    padding: 20px 40px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.Cat-Background > * { /* Target all child elements */
+    position: relative; /* Add this line */
+    top: 50%; /* Add this line */
+    transform: translateY(-50%); /* Add this line */
+    
+  }
+  
